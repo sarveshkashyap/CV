@@ -1,0 +1,9 @@
+body {background-color: lightblue; margin: 0; }
+h1 {margin-top: 0; margin-bottom: 0; }
+p {margin-top: 0; margin-bottom: 0;}
+.top-container { color: yellow; text-align: center; padding: 20px; background-color: blue;
+      margin-top: 50px;
+      width: 95%; border: dashed cyan; border-width: 5px 10px 20px 40px;}
+
+.middle-container { width: 200px; height: 200px; background-color: red}
+.bottom-container { width: 200px; height: 200px; background-color: black}

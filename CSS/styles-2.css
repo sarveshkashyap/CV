@@ -1,0 +1,77 @@
+body { color: #45b29a; margin: 0;  text-align: center; font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+      font-size: 1em;
+}
+h1 { margin: 50px auto 0 auto; font-family: "Sacramento", sans-serif; font-size: 5.5rem; color: #66BFBF; }
+h2 { margin: 0 auto 0 auto; padding: 10px;
+  line-height: 2; font-family: "Poppins Medium"; font-size: 2.4rem; font-weight: normal; color: #66BFBF;}
+h3 { margin: 0 auto 0 auto; font-family: "Poppins Light"; color: #11999E; }
+h4 {font-family: "Poppins Medium"; font-size: 1.25rem; font-weight: normal; color: #66BFBF;}
+
+hr { border: dotted #EAF6F6 6px;
+border-bottom: none; width: 4%; margin: 100px auto;}
+
+.skills { margin-top: 100px;}
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #E4F9F6; margin-top: 0;}
+
+.profile { margin: 30px auto 30px auto; }
+
+.bottom-container {background-color: #66BFBF;  padding: 50px 0 20px;
+                  margin: 0 auto 0 auto;  }
+
+.skill-row { line-height: 2; text-align: left; width: 50%; margin: 100px auto 100px auto;}
+
+.Profile-Photo {width: 12%; clip-path: circle(80px at center);}
+.Computing {width: 25%; float: left; margin-right: 30px;}
+.Hobby {width: 25%; float: right; margin-left: 30px;}
+
+.web {text-decoration: underline; font-family: 'Merriweather', serif;}
+.intro {width: 50%; margin: auto;}
+.contact-me {margin: 0 auto 60px;}
+.contact-message { width: 40%; margin: 40px auto 60px;}
+.copyright { color: #EAF6F6; font-size: 0.75rem; padding: 20px 0;}
+.worktable{  margin-left: auto; margin-right: auto; }
+table, th, td { padding: 12px;}
+th, td {border-bottom: 1px solid #ddd;
+}
+
+/* The parent block for both the below classes is top-container class. So they will move relative to top-container*/
+
+.top-cloud {position: absolute; top: 40px; right: 250px;}
+
+.bottom-cloud {position: absolute; bottom: 250px; left: 250px;}
+.footer-link { color: #11999E}
+p {color: #40514E; font-family: "Poppins Light"; line-height: 2;}
+
+a {color: #11999E; font-family: adobe-garamond-pro,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; margin: 10px 20px;
+    text-decoration: none;}
+a:hover {color: #EAF6F6;}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Poppins Medium;
+  color: WHITE;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
